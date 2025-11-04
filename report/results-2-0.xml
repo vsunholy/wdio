@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="3" failures="0" errors="0" skipped="0">
+  <testsuite name="first e2e test suite" timestamp="2025-11-04T09:35:06" time="1.849" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="first e2e test suite"/>
+      <property name="capabilities" value="microsoftedge.142_0_3595_53.windows"/>
+      <property name="file" value="file:///C:/Users/user/Desktop/Epam%20Training/wdio/src/specs/test.spec.js"/>
+    </properties>
+    <testcase classname="microsoftedge.142_0_3595_53.windows.first_e2e_test_suite" name="should open www epam com" time="0.806">
+      <system-out><![CDATA[
+COMMAND: GET /session/4d336fdde9ad2b4981e1a0bed514774e/title - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="microsoftedge.142_0_3595_53.windows.first_e2e_test_suite" name="should open hamburger menu" time="0.376">
+      <system-out><![CDATA[
+COMMAND: POST /session/4d336fdde9ad2b4981e1a0bed514774e/element/f.FBD1A4E6ED6A5FAD84AC4088E5085FA5.d.9E96D37492B8EB50480EEACE6F435222.e.29/click - {}
+RESULT: {}
+COMMAND: GET /session/4d336fdde9ad2b4981e1a0bed514774e/element/f.FBD1A4E6ED6A5FAD84AC4088E5085FA5.d.9E96D37492B8EB50480EEACE6F435222.e.51/css/display - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="microsoftedge.142_0_3595_53.windows.first_e2e_test_suite" name="should navigate to Services page" time="0.663">
+      <system-out><![CDATA[
+COMMAND: POST /session/4d336fdde9ad2b4981e1a0bed514774e/element/f.FBD1A4E6ED6A5FAD84AC4088E5085FA5.d.BD5D4E28774F2D176E1C6A091881CDF0.e.60/click - {}
+RESULT: {}
+COMMAND: GET /session/4d336fdde9ad2b4981e1a0bed514774e/title - {}
+RESULT: {}
+COMMAND: DELETE /session/4d336fdde9ad2b4981e1a0bed514774e - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

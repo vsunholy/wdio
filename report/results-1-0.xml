@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="3" failures="0" errors="0" skipped="0">
+  <testsuite name="first e2e test suite" timestamp="2025-11-04T09:35:02" time="2.43" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="first e2e test suite"/>
+      <property name="capabilities" value="firefox.146_0a1.windows"/>
+      <property name="file" value="file:///C:/Users/user/Desktop/Epam%20Training/wdio/src/specs/test.spec.js"/>
+    </properties>
+    <testcase classname="firefox.146_0a1.windows.first_e2e_test_suite" name="should open www epam com" time="0.907">
+      <system-out><![CDATA[
+COMMAND: GET /session/7c2107b6-fb6a-447b-995d-ddb2990adc81/title - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.146_0a1.windows.first_e2e_test_suite" name="should open hamburger menu" time="0.346">
+      <system-out><![CDATA[
+COMMAND: POST /session/7c2107b6-fb6a-447b-995d-ddb2990adc81/element/1b44c9aa-65a6-416f-b426-b2309d759d83/click - {}
+RESULT: {}
+COMMAND: GET /session/7c2107b6-fb6a-447b-995d-ddb2990adc81/element/74082319-607d-4d91-9620-0d75b8fb37f6/css/display - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.146_0a1.windows.first_e2e_test_suite" name="should navigate to Services page" time="1.176">
+      <system-out><![CDATA[
+COMMAND: POST /session/7c2107b6-fb6a-447b-995d-ddb2990adc81/element/36cd1347-ffbb-4f1e-a389-8473d2870abf/click - {}
+RESULT: {}
+COMMAND: GET /session/7c2107b6-fb6a-447b-995d-ddb2990adc81/title - {}
+RESULT: {}
+COMMAND: DELETE /session/7c2107b6-fb6a-447b-995d-ddb2990adc81 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
