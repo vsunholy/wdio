@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="3" failures="0" errors="0" skipped="0">
-  <testsuite name="first e2e test suite" timestamp="2025-11-04T09:34:57" time="2.48" tests="3" failures="0" errors="0" skipped="0">
+  <testsuite name="first e2e test suite" timestamp="2025-11-04T09:39:31" time="1.804" tests="3" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="first e2e test suite"/>
       <property name="capabilities" value="chrome.141_0_7390_123.windows"/>
       <property name="file" value="file:///C:/Users/user/Desktop/Epam%20Training/wdio/src/specs/test.spec.js"/>
     </properties>
-    <testcase classname="chrome.141_0_7390_123.windows.first_e2e_test_suite" name="should open www epam com" time="1.523">
+    <testcase classname="chrome.141_0_7390_123.windows.first_e2e_test_suite" name="should open www epam com" time="0.882">
       <system-out><![CDATA[
-COMMAND: GET /session/39626f2ed17521c4aa82806510d8c3ad/title - {}
+COMMAND: GET /session/cc868f1e95db9fd246d4748fae12bd10/title - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
-    <testcase classname="chrome.141_0_7390_123.windows.first_e2e_test_suite" name="should open hamburger menu" time="0.318">
+    <testcase classname="chrome.141_0_7390_123.windows.first_e2e_test_suite" name="should open hamburger menu" time="0.306">
       <system-out><![CDATA[
-COMMAND: POST /session/39626f2ed17521c4aa82806510d8c3ad/element/f.844266C71AE23EFC63FB1EB1A93240AE.d.72001DD20DFB50074D7CEBBCD78CF114.e.25/click - {}
+COMMAND: POST /session/cc868f1e95db9fd246d4748fae12bd10/element/f.3A54A9E737770D3DDD2C9C3ED04115AF.d.E944ACEB60E43D3798759066172B3AE0.e.24/click - {}
 RESULT: {}
-COMMAND: GET /session/39626f2ed17521c4aa82806510d8c3ad/element/f.844266C71AE23EFC63FB1EB1A93240AE.d.72001DD20DFB50074D7CEBBCD78CF114.e.49/css/display - {}
+COMMAND: GET /session/cc868f1e95db9fd246d4748fae12bd10/element/f.3A54A9E737770D3DDD2C9C3ED04115AF.d.E944ACEB60E43D3798759066172B3AE0.e.47/css/display - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
-    <testcase classname="chrome.141_0_7390_123.windows.first_e2e_test_suite" name="should navigate to Services page" time="0.638">
+    <testcase classname="chrome.141_0_7390_123.windows.first_e2e_test_suite" name="should navigate to Services page" time="0.616">
       <system-out><![CDATA[
-COMMAND: POST /session/39626f2ed17521c4aa82806510d8c3ad/element/f.844266C71AE23EFC63FB1EB1A93240AE.d.EF3E363BFE713CECB98D592E692F97B7.e.56/click - {}
+COMMAND: POST /session/cc868f1e95db9fd246d4748fae12bd10/element/f.3A54A9E737770D3DDD2C9C3ED04115AF.d.9763B31514DA16CE5DE41C799CA53FDB.e.54/click - {}
 RESULT: {}
-COMMAND: GET /session/39626f2ed17521c4aa82806510d8c3ad/title - {}
+COMMAND: GET /session/cc868f1e95db9fd246d4748fae12bd10/title - {}
 RESULT: {}
-COMMAND: DELETE /session/39626f2ed17521c4aa82806510d8c3ad - {}
+COMMAND: DELETE /session/cc868f1e95db9fd246d4748fae12bd10 - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
